@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - check the code
  *
@@ -16,4 +17,5 @@ int main(void)
 void _puts(char *str){
 	while(*str != '\0')
         printf("%c",*str++);
+	printf("\n");
 }
