@@ -31,7 +31,8 @@ int _strlen(char *s){
 
 void _puts(char *s){
 	while(*s != '\0')
-        printf("%c",*s++);
+        	printf("%c",*s++);
+	printf("\n");
 }
 
 void print_rev(char *s){
