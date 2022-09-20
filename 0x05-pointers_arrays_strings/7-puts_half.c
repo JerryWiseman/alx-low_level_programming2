@@ -8,6 +8,8 @@ void puts_half(char *str)
 {
 	int i = 1;
 	int l = _strlen(str)/2;
+	int _strlen(char *s);
+	
 	while(*str != '\0'){
         if (i > l){
             printf("%c",*str);
