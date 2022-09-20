@@ -18,5 +18,6 @@ int main(void)
 
 void puts2(char *str){
 	while(*str != '\0')
-        printf("%c\n",*str++);
+        	printf("%c",*str++);
+	printf("%c\n");
 }
