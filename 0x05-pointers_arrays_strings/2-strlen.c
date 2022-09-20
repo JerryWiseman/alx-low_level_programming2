@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+int _strlen(char *s){
+	int i;
+	for (i = 0; s[i] != '\0'; ++i);
+    return (i);
+    } 
+    
 int main(void)
 {
-    int _strlen(char *s);
     char *str;
     int len;
     
@@ -11,9 +16,3 @@ int main(void)
     printf("%d\n", len);
     return (0);
 }
-
-int _strlen(char *s){
-	int i;
-	for (i = 0; s[i] != '\0'; ++i);
-    return (i);
-    }
