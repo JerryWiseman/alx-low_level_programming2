@@ -1,3 +1,11 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
 #include <stdio.h>
 /**
  * main - check the code
@@ -17,13 +25,14 @@ int main(void)
 
 
 void puts_half(char *str){
-	int i = 0;
+	int i = 1;
+	int l = _strlen(str)/2;
 	while(*str != '\0'){
         printf("%c",*str++);
-        i++;
-        if (i == _strlen(*str)/2){
+        if (i == l){
         	printf("\n");
         }
+        i++;
     }
 }
 
